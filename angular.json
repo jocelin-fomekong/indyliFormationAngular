@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "indyliFormationAngular"
+    }
+  },
+  "defaultProject": "indyliFormationAngular",
+  "cli": {
+    "analytics": "f46fd706-7cca-4166-b0d1-ac2ae5d95dd9"
+  }
 }
