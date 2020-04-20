@@ -1,6 +1,6 @@
 <div class="col-12">
   <h2>Mes appareils</h2>
-    <p>Mise à jour le : {{ lastUpdate | async | date: 'dd, MMM-yy à HH:mm:ss'}}</p>
+    <p>Mise à jour le : {{ lastUpdate | async | date: 'dd, MMM-yy à HH:mm:ss' }}</p>
       <ul class="list-group">
         <app-appareil *ngFor="let appareil of appareils; let i = index"
                       [indexOfAppareil]="i"
